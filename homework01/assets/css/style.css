@@ -1,6 +1,67 @@
+
+body {
+    background-image: url("assets/images/papyrus.png");
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
 #links {
     float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 img {
     float: left;
+}
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 960px;
+    border-bottom: solid #cccccc;
+    background: #ffffff;
+    margin: 0 auto;
+}
+#name {
+    background-color: #4aaaa5;
+    width: 20%;
+    color: #ffffff;
+    padding: 10px;
+    float: left;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+#main {
+    width: 960px;
+    margin: 0 auto;
+    
+    border: solid black 1px;
+    padding: 10px;
+}
+#contact {
+    width: 960px;
+    margin: 0 auto;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #666666;
+    color: #ffffff;
+    padding-bottom: 5px;
+    padding-top: 30px;
+    font-size: 12px;
+    border-top: 5px solid #4aaaa5;
+}
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
