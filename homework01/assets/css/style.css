@@ -1,14 +1,15 @@
 
 body {
-    background-image: url("assets/images/papyrus.png");
+    background-image: url("../images/papyrus.png");
     font-family: Arial, Helvetica, sans-serif;
-    
-    
 }
+nav {
+    background-color: #ffffff;
+}
+
 #links {
     float: right;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 img {
     float: left;
@@ -16,9 +17,10 @@ img {
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 960px;
-    border-bottom: solid #cccccc;
-    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
     margin: 0 auto;
+    margin-top: 0;
 }
 #name {
     background-color: #4aaaa5;
@@ -35,13 +37,15 @@ header {
 #main {
     width: 960px;
     margin: 0 auto;
-    
+    margin-top: 10px;
+    background-color: #ffffff;
     border: solid black 1px;
     padding: 10px;
 }
 #contact {
     width: 960px;
     margin: 0 auto;
+    background-color: #ffffff;
 }
 
 footer {
@@ -64,4 +68,13 @@ h1 {
 h2 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#container {
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+#main-container {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 960px;
 }
