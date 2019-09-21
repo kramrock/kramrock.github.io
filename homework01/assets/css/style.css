@@ -103,3 +103,17 @@ h2 {
     
     float: left;
 }
+.text-block1 {
+    
+    border-bottom: 10px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+.fields {
+    width: 100%;
+}
+form {
+    width: 100%;
+}
