@@ -28,6 +28,7 @@ header {
     color: #ffffff;
     padding: 10px;
     float: left;
+    font-size: 32px;
 }
 .clearfix::after {
     content: "";
@@ -77,4 +78,23 @@ h2 {
     background-color: #ffffff;
     margin: 0 auto;
     width: 960px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    padding: 10px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.grid-item {
+    
+    border: 1px solid brown;
+    height: 150px;
+    width: 150px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
