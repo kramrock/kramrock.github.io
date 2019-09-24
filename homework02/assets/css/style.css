@@ -1,0 +1,29 @@
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.main-image {
+    
+    float: left;
+    padding: 10px;
+}
+#sticky-footer {
+    flex-shrink: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: solid #4aaaa5 10px;
+}
+.container-fluid {
+   
+    margin: 20px;
+    padding:20px;
+    border: 1px solid black;
+    overflow: auto;
+  
+}
+.img-fluid {
+    max-width: 100%;
+    
+}
