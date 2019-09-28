@@ -1,7 +1,8 @@
 .navbar-brand {
     background-color: #4aaaa5;
     color: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
 }
 .main-image {
     
@@ -17,13 +18,32 @@
 }
 .container-fluid {
    
-    margin: 20px;
+    margin: 10px;
+    
     padding:20px;
     border: 1px solid black;
     overflow: auto;
+    background-color: white;
   
+}
+body {
+    background-image: url("../images/wavy-dots.png");
 }
 .img-fluid {
     max-width: 100%;
     
+}
+.btn {
+    background-color: #4aaaa5;
+}
+.pics {
+    padding: 10px;
+}
+.text-block1 {
+    border-bottom: 10px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    width: 200;
 }
