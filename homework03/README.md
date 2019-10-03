@@ -1,4 +1,4 @@
 This is a random password generator
 
-![Optional Text](/Capture.jpg)
+![Optional Text](./Capture.jpg)
 
