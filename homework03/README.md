@@ -2,9 +2,9 @@
 
 ### https://kramrock.github.io/homework03/
 
-![screenshot](Capture.jpg)
+<!-- ![screenshot](Capture.jpg) -->
 
-![screenshot](./Capture.jpg)
+![screenshot](./images/Capture.jpg)
 
 This program uses javascript in order to randomly generate a password for the user.  
 
