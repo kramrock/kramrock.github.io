@@ -2,7 +2,7 @@
 
 ### https://kramrock.github.io/homework03/
 
-![screenshot](./Capture.jpg)
+![screenshot](Capture.jpg)
 
 ![screenshot](./Capture.jpg)
 
