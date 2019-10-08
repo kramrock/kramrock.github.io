@@ -1,11 +1,6 @@
 function game() {
     var passwordLength = parseInt(prompt("How many characters, 8-128?"));
     //need to take the passwordLength variable and convert to number
-
-    var passwordUpper = confirm("Do you want to include uppercase letters?");
-
-    var passwordSpecial = confirm("Do you want to include special characters?");
-
     if (passwordLength > 128 || passwordLength < 8) {
         alert("Please pick a number between 8 and 128")
         game()
@@ -15,6 +10,12 @@ function game() {
         //call password generation function
         passwordGeneration(passwordLength, passwordUpper, passwordSpecial)
     }
+
+    var passwordUpper = confirm("Do you want to include uppercase letters?");
+
+    var passwordSpecial = confirm("Do you want to include special characters?");
+
+    
 }
 function setPassword(setWord){
     console.log("setit: " + setWord);
